@@ -9,7 +9,7 @@ output: [1,'a','cat',2,3,'dog',4,5] <br/>
 --
 
 <p> dizi = [[1,'a',['cat'],2],[[[3]],'dog'],4,5] &nbsp;&nbsp;&nbsp; #Diziyi tanımlarız.</p> <br/>
-atanacakDizi = []                                        #İşlem yaptıktan sonra atama yaoılması için boş bir dizi tanımlarız. <br/>
+<p>atanacakDizi = []    &nbsp;&nbsp;&nbsp;   #İşlem yaptıktan sonra atama yaoılması için boş bir dizi tanımlarız. <br/><p>
 
 def flatten(k):                                          #flatten diye bir fonksiyon oluşturuyoruz. <br/>
     for i in k :                                         #fonksiyonun içinde gezinmek için bir for dögüsü oluşturuyoruz. <br/>
