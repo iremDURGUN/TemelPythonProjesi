@@ -6,7 +6,7 @@ input: [[1,'a',['cat'],2],[[[3]],'dog'],4,5] <br/>
 
 output: [1,'a','cat',2,3,'dog',4,5] <br/>
 
---
+
 
 <p>dizi = [[1,'a',['cat'],2],[[[3]],'dog'],4,5] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #Diziyi tanımlarız. <br/>
 <p>atanacakDizi = []    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   #İşlem yaptıktan sonra atama yaoılması için boş bir dizi tanımlarız. <br/>
@@ -31,7 +31,7 @@ input: [[1, 2], [3, 4], [5, 6, 7]] <br/>
 
 output: [[[7, 6, 5], [4, 3], [2, 1]] <br/>
 
---
+
 
 <p> &nbsp;&nbsp; dizi = [[1, 2], [3, 4], [5, 6, 7]] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        #İşlem yapılacak dizi tanımlanır. <br/>
 &nbsp;&nbsp; dizi.reverse()         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    #Diziyi reverse fonksiyonu kullanılarak ters çeviririz. <br/>
