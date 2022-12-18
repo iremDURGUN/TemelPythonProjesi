@@ -8,7 +8,7 @@ output: [1,'a','cat',2,3,'dog',4,5] <br/>
 
 --
 
-dizi = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]             #Diziyi tanımlarız. <br/>
+`dizi = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]             #Diziyi tanımlarız. <br/>
 atanacakDizi = []                                        #İşlem yaptıktan sonra atama yaoılması için boş bir dizi tanımlarız. <br/>
 
 def flatten(k):                                          #flatten diye bir fonksiyon oluşturuyoruz. <br/>
@@ -19,7 +19,7 @@ def flatten(k):                                          #flatten diye bir fonks
             atanacakDizi.append(i)                       #i listede değilse oluşturulan boş diziye i değişkeni atanacak. <br/>
 
 flatten(dizi)                                            #latten fonksiyonu çalıştırılır. <br/>
-print(atanacakDizi)                                      #atanacakDizi ekrana yazdırılır. <br/>
+print(atanacakDizi)                                      #atanacakDizi ekrana yazdırılır. <br/> `
  
 
 
